@@ -2203,3 +2203,17 @@ button.menu-toggle {
     margin-right: 1.41575em;
     padding: 0; } }
 
+/*-----------Products section---------*/
+
+.product-items  {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.product-items div {
+  width: 30%;
+}
